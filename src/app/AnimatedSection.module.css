@@ -1,0 +1,63 @@
+/* AnimatedSection.module.css */
+
+.container {
+  position: fixed;
+  top: 15%;
+  left: 20%;
+  background-color: transparent;
+  padding: 20px 30px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  z-index: 1000;
+  width: auto;
+  max-width: 600px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.topSection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.button {
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #f0f0f0;
+}
+
+.line {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.textContainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #0070f3;
+  transition: color 0.2s ease;
+}
+
+.underline:hover {
+  color: #0056b3;
+}
+
+

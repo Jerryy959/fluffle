@@ -1,0 +1,123 @@
+/* src/app/globals.css */
+
+/* 重置默认样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden; /* 禁止页面滚动 */
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+/* 设置背景视频的大小、位置和居右下角 */
+.bg-video {
+  position: absolute;
+  bottom: -199; /* 将视频定位到页面底部 */
+  right: -177;  /* 将视频定位到页面右侧 */
+  width: 100%; /* 视频宽度缩小为80% */
+  height: auto; /* 保持视频比例 */
+  object-fit: cover; /* 确保视频覆盖容器 */
+  object-position: center center; /* 居中视频内容 */
+  z-index: -1;
+}
+
+/* 设置内容区域的布局 */
+.container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+  z-index: 10;
+  width: 80%;
+  max-width: 1200px;
+  padding: 20px;
+  color: #fff;
+  background-color: transparent; /* 使背景透明 */
+  border-radius: 10px;
+}
+
+
+/* 为角色定义动画 */
+/*
+@keyframes move-left-right {
+  0% {
+    transform: translateX(0) scaleX(1); 
+  }
+  50% {
+    transform: translateX(100px) scaleX(-1); 
+  }
+  100% {
+    transform: translateX(0) scaleX(1); 
+  }
+}
+*/
+
+.character {
+  position: absolute;
+  /* bottom: 10%; */ 
+  width: 50px; 
+  height: auto;
+  /* animation: move-left-right 5s infinite alternate ; */ 
+}
+
+.character:nth-child(2) {
+  animation-delay: 2s; /* 让不同角色的动画错开 */
+}
+
+.character:nth-child(3) {
+  animation-delay: 4s;
+}
+
+.character:nth-child(4) {
+  animation-delay: 6s;
+}
+.character:nth-child(1) {
+  animation-delay: 1s;
+}
+
+.island {
+  position: absolute;
+  bottom: 10%; /* 小岛区域在页面底部10%的位置 */
+  left: 50%;
+  transform: translateX(-50%); /* 居中小岛区域 */
+  width: 100%;
+  height: 200px; /* 小岛区域的高度 */
+  display: flex;
+  justify-content: space-evenly; /* 角色均匀分布 */
+  align-items: flex-end; /* 角色在小岛底部 */
+  z-index: 5;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 保持视频比例，覆盖屏幕 */
+  z-index: -1; /* 确保视频在背景层上方 */
+}
+
+/* 背景色层 */
+.background-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2; /* 确保背景色层在视频下面 */
+}
