@@ -1,0 +1,84 @@
+{ "frames": {
+   "Mush-full 0.png": {
+    "frame": { "x": 0, "y": 0, "w": 256, "h": 256 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 256, "h": 256 },
+    "sourceSize": { "w": 256, "h": 256 },
+    "duration": 100
+   },
+   "Mush-full 1.png": {
+    "frame": { "x": 256, "y": 0, "w": 256, "h": 256 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 256, "h": 256 },
+    "sourceSize": { "w": 256, "h": 256 },
+    "duration": 100
+   },
+   "Mush-full 2.png": {
+    "frame": { "x": 512, "y": 0, "w": 256, "h": 256 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 256, "h": 256 },
+    "sourceSize": { "w": 256, "h": 256 },
+    "duration": 100
+   },
+   "Mush-full 3.png": {
+    "frame": { "x": 768, "y": 0, "w": 256, "h": 256 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 256, "h": 256 },
+    "sourceSize": { "w": 256, "h": 256 },
+    "duration": 100
+   },
+   "Mush-full 4.png": {
+    "frame": { "x": 1024, "y": 0, "w": 256, "h": 256 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 256, "h": 256 },
+    "sourceSize": { "w": 256, "h": 256 },
+    "duration": 100
+   },
+   "Mush-full 5.png": {
+    "frame": { "x": 1280, "y": 0, "w": 256, "h": 256 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 256, "h": 256 },
+    "sourceSize": { "w": 256, "h": 256 },
+    "duration": 100
+   },
+   "Mush-full 6.png": {
+    "frame": { "x": 1536, "y": 0, "w": 256, "h": 256 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 256, "h": 256 },
+    "sourceSize": { "w": 256, "h": 256 },
+    "duration": 100
+   },
+   "Mush-full 7.png": {
+    "frame": { "x": 1792, "y": 0, "w": 256, "h": 256 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 256, "h": 256 },
+    "sourceSize": { "w": 256, "h": 256 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.13-arm64",
+  "image": "Mush.png",
+  "format": "RGBA8888",
+  "size": { "w": 2048, "h": 256 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+   { "name": "mushfullheaditem", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 64, "y": 22, "w": 128, "h": 128 } }, { "frame": 1, "bounds": {"x": 63, "y": -1, "w": 128, "h": 128 } }, { "frame": 2, "bounds": {"x": 63, "y": 4, "w": 128, "h": 128 } }, { "frame": 3, "bounds": {"x": 63, "y": 16, "w": 128, "h": 128 } }, { "frame": 4, "bounds": {"x": 63, "y": 20, "w": 128, "h": 128 } }, { "frame": 5, "bounds": {"x": 63, "y": 26, "w": 128, "h": 128 } }, { "frame": 6, "bounds": {"x": 63, "y": 33, "w": 128, "h": 128 } }, { "frame": 7, "bounds": {"x": 64, "y": 23, "w": 128, "h": 128 } }] },
+   { "name": "mushhandsitem", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 35, "y": 170, "w": 80, "h": 80 } }, { "frame": 1, "bounds": {"x": 35, "y": 156, "w": 80, "h": 80 } }, { "frame": 2, "bounds": {"x": 35, "y": 154, "w": 80, "h": 80 } }, { "frame": 3, "bounds": {"x": 35, "y": 166, "w": 80, "h": 80 } }, { "frame": 4, "bounds": {"x": 35, "y": 169, "w": 80, "h": 80 } }, { "frame": 6, "bounds": {"x": 35, "y": 171, "w": 80, "h": 80 } }] }
+  ]
+ }
+}
